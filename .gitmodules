@@ -1,0 +1,3 @@
+[submodule "analyse_dls_with_contin"]
+	path = analyse_dls_with_contin
+	url = https://github.com/BAMresearch/analyse_dls_with_contin.git
