@@ -1,1 +1,2 @@
 miepython
+jupyter-analysis-tools
