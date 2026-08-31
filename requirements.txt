@@ -1,3 +1,0 @@
-miepython
-jupyter-analysis-tools
-bson
