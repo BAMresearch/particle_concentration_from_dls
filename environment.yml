@@ -11,4 +11,4 @@ dependencies:
   - miepython
   - pip
   - pip:
-      - jupyter-analysis-tools
+      - -r requirements.txt
