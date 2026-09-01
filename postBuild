@@ -1,0 +1,6 @@
+#!/bin/sh
+# postBuild commands for repo2docker
+# configures the jupyter notebook UI
+SETTINGS_DIR="$(jupyter --data-dir)/lab/settings"
+mkdir -p "$SETTINGS_DIR"
+echo '{"@jupyterlab/docmanager-extension:plugin":{"autosave":false}}' > "$SETTINGS_DIR/overrides.json"
